@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Test project</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <header class="header">
+      <nav class="header__menu">
+        <div class="container">
+          <img class="logo" src="img/logo.svg" alt="Логотип" />
+          <ul class="menu__items">
+            <li class="menu__item">Бизнес</li>
+            <li class="menu__item">О нас</li>
+            <li class="menu__item">Цены</li>
+            <li class="menu__item">Оформить заказ</li>
+          </ul>
+          <div class="menu__burger">
+            <span></span>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="header__content">
+          <h1 class="header__title">
+            <span class="header__title-span">Lorem ipsum</span> dolor sit
+            ametconsectetur <span class="header__title-span">adipiscing</span>
+          </h1>
+          <div class="header__text">
+            <h4 class="header__text-title">At vero eos et accusamus et iusto odio dignissimos ducimus!</h4>
+            <p class="header__text-item">- Totam rem aperiam eaque ipsa</p>
+            <p class="header__text-item">- Sit voluptatem accusantium doloremque laudantium</p>
+            <p class="header__text-item">- Sed ut perspiciatis, unde omnis iste natus error</p>
+          </div>
+          <div class="header__buttons">
+            <button class="header__button-blue header__button">Заказать</button>
+            <button class="header__button-white header__button">Подробнее</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <div class="container">
+        <div class="order__text">
+          <h2 class="order__title">Оформление <span class="order__title-span">заказа</span></h2>
+          <p class="order__title-text">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+        </div>
+
+        <!-- FLEX-ITEMS -->
+        <div class="order__flex">
+          <div class="order__flex-item">
+            <div class="item__circle">
+              <img src="img/glass.svg" alt="Лупа"/>
+            </div>
+            <p class="item__text">Lorem ipsum dolorsit amet</p>
+            <div class="circles__block">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="order__flex-item">
+            <div class="item__circle">
+              <img src="img/percent.svg" alt="Процент"/>
+            </div>
+            <p class="item__text">Сonsecteturadipiscing elit</p>
+            <div class="circles__block">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="order__flex-item">
+            <div class="item__circle">
+              <img src="img/document.svg" alt="Документ"/>
+            </div>
+            <p class="item__text">Sed do eiusmod tempor</p>
+            <div class="circles__block">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="order__flex-item">
+            <div class="item__circle">
+              <img src="img/mail.svg" alt="Почта"/>
+            </div>
+            <p class="item__text">Esse cillum doloreeu fugiat</p>
+            <div class="circles__block">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="order__flex-item">
+            <div class="item__circle">
+              <img src="img/money.svg" alt="Доллар"/>
+            </div>
+            <p class="item__text">Excepteur sint occaecat cupidatat non proident</p>
+          </div>
+        </div>
+
+        <!-- INPUTS -->
+        <div class="order__input">
+
+          <!-- CUSTOM-SELECT -->
+          <div class="custom__select" tabindex="0">
+            <div class="custom__select-top">
+              <div class="custom__select-selected">Выберите тип системы</div>
+              <img src="img/custom.svg"/>
+            </div>
+            <div class="custom__select-dropdown">
+              <div class="custom__select-option">Sed ut perspiciatis</div>
+              <div class="custom__select-option">Nemo enim ipsam</div>
+              <div class="custom__select-option">Et harum quidem</div>
+              <div class="custom__select-option">Temporibus autem</div>
+              <div class="custom__select-option">Itaque earum rerum</div>
+            </div>
+          </div>
+
+          <!-- FORM -->
+          <input class="form__input email__input" type="email" name="email" placeholder="Ваш e-mail"/>
+          <input class="form__input name__input" type="text" name="name" placeholder="Ваше имя"/>
+
+          <!-- RANGE-IMG -->
+          <div class="range">
+            <div class="range__top">
+              <p class="range__text">Sed ut perspiciatis, unde omnis iste natus</p>
+              <span class="range__span">75%</span>
+            </div>
+            <img class="range__img" src="img/range.png"/>
+          </div>
+
+          <!-- CUSTOM-FILE -->
+          <div class="custom__file-upload">
+            <label for="file"><img class="file__img" src="img/doc.svg"/></label>
+            <span>Прикрепить файл</span>
+            <input type="file" name="file"/>
+          </div>
+          <div><button class="form__btn" >Отправить</button></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <span class="footer__span">© 2018 «LoremIpsum.net» Все права защищены.</span>
+        <ul class="link__items">
+          <li class="link__item"><img src="img/qiwi-img.svg"/>QIWI wallet</li>
+          <li class="link__item"><img src="img/yandex__wallet-img.svg"/>Yandex Money</li>
+          <li class="link__item"><img src="img/web__money-img.svg" />Web Money</li>
+        </ul>
+        <ul class="link__items">
+          <li class="link__item"><img src="img/mail-img.svg"/><a href="mailto:info@example.com" class="link__item-mail">info@ipsum228.com</a></li>
+          <li class="link__item"><img src="img/vk-img.svg" /><a href="https://vk.com/" target="_blank" class="link__item-vk">Мы вконтакте</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Спасибо! Мы скоро с Вами свяжемся!</p>
+      </div>
+    </div>
+    <div class="modal__error">
+      <div class="modal-content">
+        <span class="close__error">&times;</span>
+        <p>Поля "Ваш e-mail" и "Ваше имя" должны быть заполнены корректно!</p>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+@media (max-width: 1200px) {
+    .footer__span, .footer__span + .link__items {
+        border-right: none;
+    }
+    .circles__block {
+        display: none;
+    }
+}
+
+@media (max-width: 830px) {
+    .footer {
+        justify-content: left;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .range__img, .custom__select, .form__input {
+        width: 100%;
+    }
+    .form__btn {
+        width: 310px;
+    }
+    .modal-content  {
+        width: 80%;
+    }
+    .custom__file-upload {
+        width: 100%;
+    }
+    .header__title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .header__content {
+        padding: 140px 0 0 0;
+        gap: 40px;
+    }
+    .header {
+        height: 550px;
+    }
+    .menu__burger {
+        display: flex;
+    }
+    .menu__items {
+       display: none;
+       flex-direction: column; 
+       position: fixed;
+       height: 100%;
+       width: 100%;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       z-index: 50;
+       overflow-y: auto;
+       padding: 50px 40px;
+       background-color: black;
+       gap: 40px;
+       font-size: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer__span {
+        font-size: 10px;
+    }
+    .footer {
+        gap: 13px;
+        padding: 20px 0 10px 0;
+    }
+    .range__img, .custom__select, .form__input {
+        width: 100%;
+    }
+    .custom__file-upload {
+        width: 100%;
+    }
+    .range__text, .range__span {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .range__top {
+        margin: 0 0 20px 0;
+    }
+    .order__title {
+        font-size: 24px;
+        margin: 0 0 20px 0;
+    }
+    .order__title-text {
+        font-size: 15px;
+    }
+    .item__text {
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+    }
+    .main {
+        padding: 100px 0 100px 0;
+        gap: 40px;
+    }
+    .link__item {
+        font-size: 0;
+    }
+    .order__flex {
+        gap: 10px;
+    }
+    .header {
+        background-position: 67% 70%;
+    }
+    .header__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .header__text-title, .header__text-item {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .header__content {
+        gap: 30px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .container {
+        padding: 0 10px;
+    }
+}
+    
